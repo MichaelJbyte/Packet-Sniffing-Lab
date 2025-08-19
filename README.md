@@ -15,7 +15,7 @@ This lab followed a Wireshark beginner tutorial featured on YouTube, providing f
   - When clicking on an IP address in the 'conversations' tab, you can use that IP address to filter providing multiple different results.
   - Located right below the Wireshark toolbar, I also utilized the search which allowed me to filter more precisely. This included looking for packets relating to both IP's and protocols.
   - One example for the above would be: tcp.port == 80 || udp.port == 80
-Filters assist in whatever objective you have by shortening the, often large, packet capture and reducing it to the necessary packets that you may need.
+[Filters assist in whatever objective you have by shortening the, often large, packet capture and reducing it to the necessary packets that you may need.]
 
 ![photo](https://github.com/MichaelJbyte/Packet-Sniffing-Lab/blob/2519aa83da835243ec96ae3fe024520fbf56125e/filter%20ex.png)
 
@@ -33,6 +33,7 @@ Filters assist in whatever objective you have by shortening the, often large, pa
 
 ![photo](https://github.com/MichaelJbyte/Packet-Sniffing-Lab/blob/2519aa83da835243ec96ae3fe024520fbf56125e/wireshark%20preferences.png)
 
-* This lab also taught me common usages for Wireshark, including its' great usage for both conducting and identifying phishing attacks. Along with this, Wireshark can be used to improve your bandwidth and monitor your network devices connectivity.
+# Afterthoughts
+---------------------------------
 
-
+Overall, this lab taught me well the basics of how to navigate Wireshark. I have learned about the basic set of tools and familiarized myself with the information present in most packet tracing softwares. I understand the applications of packet tracing softwares better now, including conducting and identifying phishing attacks, monitoring network device connectivity, and more. 
