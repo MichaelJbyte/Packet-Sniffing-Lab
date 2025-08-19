@@ -1,4 +1,4 @@
-# Packet-Sniffing-Lab
+# Packet-Sniffing Lab
 Lab to familiarize with logging network packets. 8/18/25
 
 This lab followed a Wireshark beginner tutorial featured on YouTube, providing firsthand experience with both packet capture and network analyzing. This tutorial will teach me the basics of browsing Wireshark and how to understand all of the information it provides .
