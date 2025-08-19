@@ -12,7 +12,7 @@ This lab followed a Wireshark beginner tutorial featured on YouTube, providing f
 ![photo](https://github.com/MichaelJbyte/Packet-Sniffing-Lab/blob/a7b82e2cdec92f5c42396ed0eabce13ce6a2396e/viewing%20conversations%201.png)
 
 2. Next, I learned how to use a variety of filters.
-- When clicking on an IP address in the 'conversations' tab, you can use that IP address to filter providing multiple different results.
+  - When clicking on an IP address in the 'conversations' tab, you can use that IP address to filter providing multiple different results.
   - Located right below the Wireshark toolbar, I also utilized the search which allowed me to filter more precisely. This included looking for packets relating to both IP's and protocols.
   - One example for the above would be: tcp.port == 80 || udp.port == 80
 Filters assist in whatever objective you have by shortening the, often large, packet capture and reducing it to the necessary packets that you may need.
