@@ -9,15 +9,19 @@ This lab followed a Wireshark beginner tutorial featured on YouTube, providing f
 
 1. Beginning the lab, I clicked stop in the top right to capture all currents packets. I then used the Statistics tab to access the 'conversations' tab, showing me all the communications that happened during the packet capture, displaying all relevent information.
 
+___________________________________________________________________________
 ![photo](https://github.com/MichaelJbyte/Packet-Sniffing-Lab/blob/a7b82e2cdec92f5c42396ed0eabce13ce6a2396e/viewing%20conversations%201.png)
+___________________________________________________________________________
 
 2. Next, I learned how to use a variety of filters.
-  - When clicking on an IP address in the 'conversations' tab, you can use that IP address to filter providing multiple different results.
-  - Located right below the Wireshark toolbar, I also utilized the search which allowed me to filter more precisely. This included looking for packets relating to both IP's and protocols.
-  - One example for the above would be: tcp.port == 80 || udp.port == 80
+    - When clicking on an IP address in the 'conversations' tab, you can use that IP address to filter providing multiple different results.
+    - Located right below the Wireshark toolbar, I also utilized the search which allowed me to filter more precisely. This included looking for packets relating to both IP's and protocols.
+    - One example for the above would be: tcp.port == 80 || udp.port == 80
 [Filters assist in whatever objective you have by shortening the, often large, packet capture and reducing it to the necessary packets that you may need.]
 
+___________________________________________________________________________
 ![photo](https://github.com/MichaelJbyte/Packet-Sniffing-Lab/blob/2519aa83da835243ec96ae3fe024520fbf56125e/filter%20ex.png)
+___________________________________________________________________________
 
 3. Following that, I briefed over the packet contents placed in the bottom left, the encrypted ciphertext in the bottom right, and went over the 'follow' option.
    - The 'follow' option is often utilized as a catalsyt and an identifier for phishing attacks.
@@ -26,14 +30,17 @@ This lab followed a Wireshark beginner tutorial featured on YouTube, providing f
    - Filters can be turned into easily accesible buttons for quick and later usage.
    - Viewing the color key can be helpful to identify what Wireshark flags as potentially malicious or packet drops.
 
+___________________________________________________________________________
 ![photo](https://github.com/MichaelJbyte/Packet-Sniffing-Lab/blob/2519aa83da835243ec96ae3fe024520fbf56125e/viewing%20coloring%20rules.png)
+___________________________________________________________________________
 
 5. Lastly, I learned about the customization tools available in Wireshark.
    - Through the 'preferences' tab, I found you can customize the display, fields, and colors which Wireshark displays.
 
+___________________________________________________________________________
 ![photo](https://github.com/MichaelJbyte/Packet-Sniffing-Lab/blob/2519aa83da835243ec96ae3fe024520fbf56125e/wireshark%20preferences.png)
+___________________________________________________________________________
 
 # Afterthoughts
----------------------------------
 
 Overall, this lab taught me well the basics of how to navigate Wireshark. I have learned about the basic set of tools and familiarized myself with the information present in most packet tracing softwares. I understand the applications of packet tracing softwares better now, including conducting and identifying phishing attacks, monitoring network device connectivity, and more. 
